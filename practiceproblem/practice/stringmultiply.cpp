@@ -17,7 +17,7 @@ string multiply(string a,string b){
         if(ans[i]!='0')
         return ans.substr(i);
     }
-    return "o";
+    return "0";
     }
     int main(){
         string a="200";

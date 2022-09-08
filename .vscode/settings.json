@@ -2,6 +2,9 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "new": "cpp",
+        "vector": "cpp",
+        "string": "cpp"
     }
 }
