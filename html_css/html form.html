@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1 style="text-align:center">Registration form in html</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" placeholder="Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="phone" placeholder="7709******">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email Id:</td>
+                <td>
+                    <input type="email" placeholder="example@**">
+                </td>
+            </tr>
+
+            <tr>
+                <td>password:</td>
+                <td>
+                    <input type="password" placeholder="password" name="pin" maxlengthh="8">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" singing>singing
+                    <input type="checkbox" Dancing>Dancing
+                    <input type="checkbox" playing>playing
+                    <input type="checkbox" Reading>Reading
+                </td>
+            </tr>
+            <tr>
+            <td>Educational Qualification:</td>
+            <td>
+                <select>
+                    <option>select option</option>
+                    <option>10</option>
+                    <option>10+2</option>
+                    <option>Graduation</option>
+                    <option>Post Graduation</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>Address:</td>
+            <td>
+                <textarea rows="5" col="17" placeholder="Address"></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td>Pincode:</td>
+                <td>
+                <input type="number" name="pin" pattern="[0-9]{6}" maxlength="6">
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
