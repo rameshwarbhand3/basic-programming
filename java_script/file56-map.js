@@ -25,4 +25,4 @@ extrainfo.set(person1,{age:29,gender:"male"});
 extrainfo.set(person2,{age:20,gender:"female"});
 console.log(person1.id);
 console.log(extrainfo.get(person1).gender);
-console.log(extrainfo.get(person2),gender);
+console.log(extrainfo.get(person2).gender);
