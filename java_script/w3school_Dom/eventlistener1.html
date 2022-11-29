@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<h3>Javascript Events</h3>
+<p>click on button to see events</p>
+<body>
+   <button id="btn">click me</button>
+   <script>
+    var x=document.getElementById("btn");
+    x.addEventListener("click",myFunction);
+    x.addEventListener("click",myFunction2);
+    function myFunction(){
+        alert("Hello world");
+    }
+   function myFunction2(){
+    alert("This func was also executed")
+};
+   </script> 
+</body>
+</html>

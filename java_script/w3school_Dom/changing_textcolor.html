@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h2>Javascript HTML DOM</h2>
+<p>Hello World</p>
+<p>Hello India</p>
+<p>click the mouse to change the text color of all elements</p>
+<button onclick="myfunction()">Try it</button>
+<script>
+    function myfunction(){
+        const mycollection=document.getElementsByTagName("p");
+        for(let i=0;i<mycollection.length;i++){
+            mycollection[i].style.color="red";
+        }
+    }
+</script>
+    
+</body>
+</html>

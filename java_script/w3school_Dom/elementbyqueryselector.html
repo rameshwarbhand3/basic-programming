@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <h2>javascript HTML DOM</h2>
+    <p>Finding HTML Elements by query selector</p>
+    <p class="intro">Hello world!</p>
+    <p class="intro">This example demonstrates the <b>queryselectorAll</b></p>
+    <p id="demo"></p>
+    <script>
+        const x=document.querySelectorAll("p.intro");
+        document.getElementById("demo").innerHTML='The first paragraph (index 0) with class="intro" is :' +x[0].innerHTML;
+    </script>
+
+<body>
+    
+</body>
+</html>

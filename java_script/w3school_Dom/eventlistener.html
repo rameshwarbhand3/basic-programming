@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h3>Javascript events</h3>
+    <p>click on below button</p>
+    <button id="btn">Try it</button>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("btn").addEventListener("click",dispalydate);
+        function dispalydate(){
+            document.getElementById("demo").innerHTML=Date();
+        }
+    </script>
+</body>
+</html>
