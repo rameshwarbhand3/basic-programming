@@ -1,4 +1,4 @@
-package collection.Set.HashSet;
+package Set.HashSet;
 import java.util.*;
 public class HashSetDemo {
     public static void main(String args[]){

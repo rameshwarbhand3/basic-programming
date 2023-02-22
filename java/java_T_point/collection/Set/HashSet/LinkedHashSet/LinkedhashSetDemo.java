@@ -1,4 +1,4 @@
-package collection.Set.HashSet.LinkedHashSet;
+package Set.HashSet.LinkedHashSet;
 import java.util.*;
 class Book {
     int id;

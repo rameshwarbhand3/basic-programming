@@ -1,4 +1,4 @@
-package collection.List;
+package List;
 import java.util.*;
 public class ArrayToList {
     public static void main(String args[]){  

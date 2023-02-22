@@ -1,4 +1,4 @@
-package collection.Vector.Stack;
+package List.Vector.Stack;
 
 import java.util.*;
 //Stack is subclass of vector class.

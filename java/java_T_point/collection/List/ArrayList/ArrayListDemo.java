@@ -1,5 +1,5 @@
 //List is child interface of collection interface and it is implemented by ArrayList,LinkedList,vector and stack.
-package collection.ArrayList;
+package List.ArrayList;
 import java.util.*;
 public class ArrayListDemo {
     public static void main(String args[]){  

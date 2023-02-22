@@ -1,4 +1,4 @@
-package collection.ArrayList;
+package List.ArrayList;
 import java.util.*;
 class Student{  
     int rollno;  

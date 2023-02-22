@@ -1,4 +1,4 @@
-package collection.Queue.PriorityQueue;
+package Queue.PriorityQueue;
 import java.util.*;
 class Book implements Comparable<Book>{  
     int id;  

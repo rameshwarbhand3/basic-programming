@@ -1,4 +1,4 @@
-package collection.Vector;
+package List.Vector;
 import java.util.*;
 public class VectorDemo {
     public static void main(String args[]){
