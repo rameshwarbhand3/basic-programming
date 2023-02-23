@@ -1,9 +1,9 @@
 package List.ArrayList;
 
 class Employee  implements Comparable<Employee>{
-    int id;
-    String name;
-    int salary;
+    private int id;
+    private String name;
+    private int salary;
 
     public Employee(int id, String name,int salary) {
         this.id = id;
@@ -35,7 +35,7 @@ class Employee  implements Comparable<Employee>{
     public void setsalary(int salary) {
         this.salary = salary;
     }
-    
+
     @Override
     public int compareTo(Employee e){  
         if(salary==e.salary)  
@@ -50,7 +50,7 @@ class Employee  implements Comparable<Employee>{
 
     @Override
     public String toString() {
-        return id + " " + name;
+        return id + " " + name+" "+salary;
     }
 
 }

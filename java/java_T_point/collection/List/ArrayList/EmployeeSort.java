@@ -1,6 +1,6 @@
 package List.ArrayList;
 import java.util.*;
-import java.lang.Object;
+
 
 public class EmployeeSort {
     public static void main(String args[]) {
@@ -21,25 +21,25 @@ public class EmployeeSort {
             System.out.println(e);
         }
         
-        // l.sort(new Comparator<Employee>() {
-        //     public int compare(Employee o1,Employee o2){
-        //         int comparison = 0;
-        //         comparison = o1.getid()-o2.getid();
-        //         if(comparison == 0){
-        //             comparison = o1.getname().compareTo(o2.getname());
-        //         }
-        //         return comparison;
-        //     }
-        // });
-        // System.out.println("After sorting id's: ");
-        // for (Employee e : l) {
-        //     System.out.println(e);
-        // }
-        // System.out.println("Sorting based on Salary :");
-        // Collections.sort(l);
-        // for(Employee e : l){
-        //     System.out.println(e.id + " "+e.name+" "+e.salary);
-        // }
+            l.sort(new Comparator<Employee>() {
+            public int compare(Employee o1,Employee o2){
+                int comparison = 0;
+                comparison = o1.getid()-o2.getid();
+                if(comparison == 0){
+                    comparison = o1.getname().compareTo(o2.getname());
+                }
+                return comparison;
+            }
+        });
+        System.out.println("After sorting id's: ");
+        for (Employee e : l) {
+            System.out.println(e);
+        }
+        System.out.println("Sorting based on Salary :");
+        Collections.sort(l);
+        for(Employee e : l){
+            System.out.println(e);
+        }
     }
 };
 
